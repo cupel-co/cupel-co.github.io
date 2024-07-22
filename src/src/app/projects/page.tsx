@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "../../components/Layout/Navbar";
 import PageHeader from "../../components/Common/PageHeader";
-import ProjectsCard from "../../components/Projects/ProjectsCard";
+import ProjectsThreeGrid from "../../components/Projects/ProjectsThreeGrid";
 import Footer from "../../components/Layout/Footer";
 
 export default function Page() {
@@ -10,13 +10,13 @@ export default function Page() {
       <Navbar />
 
       <PageHeader
-        pageTitle="Projects Style One"
+        pageTitle="Projects Style Three"
         breadcrumbTextOne="Home"
         breadcrumbUrl="/"
-        breadcrumbTextTwo="Projects Style One"
+        breadcrumbTextTwo="Projects Style Three"
       />
 
-      <ProjectsCard />
+      <ProjectsThreeGrid />
 
       <Footer />
     </>
